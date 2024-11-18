@@ -95,7 +95,7 @@ CREATE TABLE `incident_types` (
   `id` int(11) UNSIGNED NOT NULL,
   `inctype_name` varchar(255) NOT NULL,
   `added_by` text NOT NULL,
-  `added_on` datetime NOT NULL,
+  `added_on` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
